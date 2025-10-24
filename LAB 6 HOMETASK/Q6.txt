@@ -1,0 +1,6 @@
+Use a simple FIFO (First-In-First-Out) queue.
+
+Explanation:
+Each message is processed in the same order it was received — new messages are placed at the end of the queue and processed after earlier ones. 
+
+Implementation-wise, a circular queue (array or linked list) is ideal for continuous message flow.
